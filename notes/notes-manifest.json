@@ -1,5 +1,15 @@
 [
   {
+    "slug": "report-536z",
+    "title": "CPSC 536Z course report",
+    "section": "report",
+    "sortDate": "2026-04-24",
+    "date": "Apr 2026",
+    "description": "CPSC 536Z — full report (PDF).",
+    "detailUrl": "../data/CPSC_536Z_Report.pdf",
+    "detailLabel": "View detailed report (PDF)"
+  },
+  {
     "slug": "hw-536s-combinatorial-optimization",
     "title": "Combinatorial Optimization sample homework",
     "section": "homework",
