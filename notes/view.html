@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Note — Marcus Lai</title>
+    <meta name="author" content="Marcus Lai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../assets/notes.css">
+    <!-- Markdown → HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@11/marked.min.js"></script>
+    <!--
+      MathJax 3 (TeX → SVG): configured before the loader script runs.
+      Delimiters: $...$, $$...$$, \\(...\\), \\[...\\] — see notes.js typeset step after marked runs.
+    -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ],
+          displayMath: [
+            ['$$', '$$'],
+            ['\\[', '\\]'],
+          ],
+          processEscapes: true,
+        },
+        svg: {
+          fontCache: 'global',
+        },
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script defer src="../js/notes.js"></script>
+  </head>
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Marcus Lai
+                </p>
+                <p>
+                  I'm an undergraduate student at the University of British Columbia doing an Honours in Computer Science. I'm currently in my final year doing an honours thesis with professor <a href="https://bshepherd.ca/">Bruce Shepherd</a>
+                  on improving approximation algorithms for maximal routable flows on trees (an APX-hard problem).
+                </p>
+                <p style="text-align:center">
+                  <a href="../index.html">Research</a> &nbsp;/&nbsp;
+                  <a href="../data/MarcusLai-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="mailto:marcus41881653@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/YouTelllMe/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="../images/MarcusLai.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="../images/MarcusLai.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="notes"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <article id="note-body" class="notes-article" aria-live="polite"></article>
+                <p class="notes-back">
+                  <a href="index.html">← Back to all notes</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px;text-align: right;">
+          Last updated: 23rd Apr 2026
+        </td>
+      </tr>
+      <tr style="padding:0px">
+        <td style="padding:0px;text-align: right;">
+          From Jon Barron
+        </td>
+      </tr>
+    </tbody></table>
+
+    <script>
+      // Wait for DOMContentLoaded so deferred head scripts (MathJax, notes.js) have run first.
+      document.addEventListener('DOMContentLoaded', function () {
+        if (window.NotesApp) NotesApp.initNoteView();
+      });
+    </script>
+  </body>
+</html>

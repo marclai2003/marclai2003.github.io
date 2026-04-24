@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "hw-536s-combinatorial-optimization",
+    "title": "Combinatorial Optimization sample homework",
+    "section": "homework",
+    "sortDate": "2025-11-01",
+    "date": "Nov 2025",
+    "description": "CPSC 536S — a homework write-up.",
+    "detailUrl": "../data/536SHW.pdf",
+    "detailLabel": "View full PDF"
+  },
+  {
+    "slug": "hw-436q-quantum-algorithms",
+    "title": "Quantum Algorithms sample homework",
+    "section": "homework",
+    "sortDate": "2024-11-01",
+    "date": "Nov 2024",
+    "description": "CPSC 436Q — a homework write-up.",
+    "detailUrl": "../data/436QHW.pdf",
+    "detailLabel": "View full PDF"
+  },
+  {
+    "slug": "report-536m-subgradient",
+    "title": "Techniques in subgradient optimization",
+    "section": "report",
+    "sortDate": "2024-12-03",
+    "date": "Dec 2024",
+    "description": "CPSC 536M (Convex Optimization).",
+    "detailUrl": "../data/subgradient.pdf",
+    "detailLabel": "View detailed report (PDF)"
+  },
+  {
+    "slug": "report-536m-shapley-folkman",
+    "title": "Report on the Shapley–Folkman lemma",
+    "section": "report",
+    "sortDate": "2024-12-02",
+    "date": "Dec 2024",
+    "description": "CPSC 536M (Convex Optimization).",
+    "detailUrl": "../data/Shapley_Folkman_Writeup.pdf",
+    "detailLabel": "View detailed report (PDF)"
+  },
+  {
+    "slug": "report-436q-hidden-subgroup",
+    "title": "Survey on the Hidden Subgroup Problem",
+    "section": "report",
+    "sortDate": "2024-12-01",
+    "date": "Dec 2024",
+    "description": "CPSC 436Q (Quantum Algorithms) — abelian and non-abelian groups.",
+    "detailUrl": "../data/CPSC_436Q_Project_Paper.pdf",
+    "detailLabel": "View detailed report (PDF)"
+  },
+  {
+    "slug": "hw-437-number-theory",
+    "title": "Number Theory sample homework",
+    "section": "homework",
+    "sortDate": "2023-10-02",
+    "date": "Oct 2023",
+    "description": "MATH 437 — a homework write-up.",
+    "detailUrl": "../data/437HW.pdf",
+    "detailLabel": "View full PDF"
+  },
+  {
+    "slug": "hw-320-real-analysis",
+    "title": "Real Analysis sample homework",
+    "section": "homework",
+    "sortDate": "2023-10-01",
+    "date": "Oct 2023",
+    "description": "MATH 320 — a homework write-up.",
+    "detailUrl": "../data/320HW.pdf",
+    "detailLabel": "View full PDF"
+  },
+  {
+    "slug": "sample-note",
+    "title": "Sample note (Markdown + math)",
+    "section": "other",
+    "sortDate": "2026-04-23",
+    "date": "Apr 2026",
+    "description": "Demo of Markdown and LaTeX via MathJax."
+  }
+]

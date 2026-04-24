@@ -1,0 +1,116 @@
+/* Notes / blog: extends site stylesheet (Lato, link colors). Keep additions small. */
+
+/* Match research-section h2: left-aligned (default), explicit for clarity */
+.notes-section-title {
+  text-align: left;
+  margin: 0 0 8px 0;
+}
+
+.notes-back {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.notes-block {
+  margin-top: 1rem;
+}
+
+.notes-list-heading {
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  text-align: left;
+}
+
+/* Prominent link to full PDF (injected on view.html when manifest has detailUrl) */
+.notes-detail-cta {
+  margin: 0 0 1rem 0;
+  padding: 0.5rem 0.65rem;
+  background: #ffffd0;
+  border-radius: 6px;
+}
+
+#notes-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.55;
+}
+
+#notes-list li {
+  margin-bottom: 0.65rem;
+}
+
+.notes-blurb {
+  color: #444;
+  font-weight: normal;
+}
+
+.notes-error {
+  color: #a00;
+}
+
+.notes-loading {
+  color: #666;
+}
+
+/* Prose block from Markdown */
+#note-body {
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+#note-body h1,
+#note-body h2,
+#note-body h3 {
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+#note-body h1 {
+  font-size: 26px;
+  margin-top: 0;
+}
+
+#note-body h2 {
+  font-size: 22px;
+  margin-top: 1.25rem;
+}
+
+#note-body pre,
+#note-body code {
+  font-family: ui-monospace, Menlo, Monaco, 'Courier New', monospace;
+  font-size: 13px;
+}
+
+#note-body pre {
+  overflow-x: auto;
+  padding: 0.75rem 1rem;
+  background: #f6f6f6;
+  border-radius: 6px;
+}
+
+#note-body code {
+  background: #f0f0f0;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+#note-body pre code {
+  background: none;
+  padding: 0;
+}
+
+#note-body blockquote {
+  margin: 0.75rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #ddd;
+  color: #444;
+}
+
+/* MathJax (SVG) — scroll wide equations instead of breaking layout */
+#note-body mjx-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
