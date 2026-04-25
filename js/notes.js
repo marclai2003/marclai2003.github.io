@@ -27,14 +27,14 @@
   }
 
   function listIdForSection(section) {
-    if (section === 'homework') return 'notes-list-homework';
+    if (section === 'problem') return 'notes-list-problem';
     if (section === 'report') return 'notes-list-report';
     if (section === 'papers') return 'notes-list-papers';
-    return 'notes-list-other';
+    // return 'notes-list-other'; 
   }
 
   function hideEmptyNoteBlocks() {
-    ['homework', 'report', 'papers', 'other'].forEach(function (key) {
+    ['problem', 'report', 'papers'].forEach(function (key) {
       var block = document.getElementById('notes-block-' + key);
       if (!block) return;
       var ul = block.querySelector('ul');
@@ -111,7 +111,7 @@
 
   /**
    * notes/index.html — fetch manifest and fill section lists.
-   * Manifest entries: slug, title, optional section ("homework" | "report" | "papers" | "other"),
+   * Manifest entries: slug, title, optional section ("problem" | "report" | "papers"),
    * optional date (display), sortDate (YYYY-MM-DD, required for stable ordering),
    * optional detailUrl for the note viewer CTA.
    * Lists are sorted by sortDate; toggle NOTES_SORT_NEWEST_FIRST in this file for direction.
@@ -119,10 +119,12 @@
   function initNotesIndex() {
     var fallbackList = document.getElementById('notes-list');
     var hasSections =
-      document.getElementById('notes-list-homework') &&
-      document.getElementById('notes-list-report') &&
-      document.getElementById('notes-list-papers') &&
-      document.getElementById('notes-list-other');
+      document.getElementById('notes-list-problem') &&
+      document.getElementById('notes-list-report');
+      //  &&
+      // document.getElementById('notes-list-papers');
+      // &&
+      // document.getElementById('notes-list-other');
 
     fetch(new URL('notes-manifest.json', global.location.href))
       .then(function (r) {
