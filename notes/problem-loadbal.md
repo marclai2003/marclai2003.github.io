@@ -1,5 +1,7 @@
 # Load Balancing in the Streaming Model
 
+[Streaming and Communication Complexity of Load-Balancing via Matching Contractors - Assadi et al.](https://arxiv.org/abs/2410.16094)
+
 In the Load Balancing problem, we are given a bipartite graph G = (L,R,E). 
 The goal is to find an "assignment" of L to R (through E) that minimizes the 
 maximum number of nodes assigned to each $r \in R$. In the streaming model, we are
@@ -11,5 +13,3 @@ can be turned into a one-way commuinication protocol with cost at most $\tilde{O
 -- Alice runs the algorithm on her input and sends the memory contents to Bob to 
 complete the algorithm. Thus, the one-way communication complexity of the Load Balancing 
 problem is studied. 
-
-<a href="../data/CPSC_536Z_Report.pdf">CPSC 536Z Report</a>

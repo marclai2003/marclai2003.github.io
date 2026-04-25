@@ -9,7 +9,7 @@ this regime since my focus has been algorithms in trees for which paths between 
 two nodes are unique. 
 
 ## Unit Capacities
-[Primal-dual approximation algorithms for integral flow and multicut in trees](https://link.springer.com/article/10.1007/BF02523685)
+[Primal-dual approximation algorithms for integral flow and multicut in trees - Garg et al.](https://link.springer.com/article/10.1007/BF02523685)
 
 For the unit capacity case on a tree, the problem can be solved in polynomial time. The 
 two important ideas are that 
@@ -21,7 +21,7 @@ nodes that can be avoided in a max matching, then performs a contraction of heig
 where the commodities on the nodes that can be avoided are perserved. 
  
 ## General Capacities
-[Primal-dual approximation algorithms for integral flow and multicut in trees](https://link.springer.com/article/10.1007/BF02523685)
+[Primal-dual approximation algorithms for integral flow and multicut in trees - Garg et al.](https://link.springer.com/article/10.1007/BF02523685)
 
 By allowing capacities in $\{1,2\}$, the problem becomes APX-hard. This is shown by a reduction to 
 3-Dimensional Matching. The transformation is shown to be an L-reduction. For general capacities, 

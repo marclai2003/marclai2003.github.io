@@ -6,8 +6,8 @@
     "sortDate": "2026-04-24",
     "date": "",
     "description": "",
-    "detailUrl": "",
-    "detailLabel": ""
+    "detailUrl": "../data/CPSC_536Z_Report.pdf",
+    "detailLabel": "CPSC 536Z Report"
   },
   {
     "slug": "problem-multiflow",
