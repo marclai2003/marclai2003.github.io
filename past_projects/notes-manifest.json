@@ -6,8 +6,8 @@
     "sortDate": "2026-04-24",
     "date": "",
     "description": "",
-    "detailUrl": "../data/CPSC_536Z_Report.pdf",
-    "detailLabel": "CPSC 536Z Report"
+    "detailUrl": "../data/cpsc-536z-report.pdf",
+    "detailLabel": "View detailed report (PDF)"
   },
   {
     "slug": "problem-multiflow",
@@ -16,8 +16,8 @@
     "sortDate": "2026-04-25",
     "date": "",
     "description": "",
-    "detailUrl": "",
-    "detailLabel": ""
+    "detailUrl": "../data/honours-thesis-marcus-lai.pdf",
+    "detailLabel": "View detailed report (PDF)"
   },
   {
     "slug": "report-536m-subgradient",
@@ -36,7 +36,7 @@
     "sortDate": "2024-12-02",
     "date": "Dec 2024",
     "description": "CPSC 536M - Convex Optimization",
-    "detailUrl": "../data/Shapley_Folkman_Writeup.pdf",
+    "detailUrl": "../data/shapley-folkman-writeup.pdf",
     "detailLabel": "View detailed report (PDF)"
   },
   {
@@ -46,7 +46,7 @@
     "sortDate": "2024-12-01",
     "date": "Dec 2024",
     "description": "CPSC 436Q - Quantum Algorithms",
-    "detailUrl": "../data/CPSC_436Q_Project_Paper.pdf",
+    "detailUrl": "../data/cpsc-436q-project-paper.pdf",
     "detailLabel": "View detailed report (PDF)"
   }
 ]
