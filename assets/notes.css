@@ -191,8 +191,8 @@ h2 {
 }
 
 .tag-approx-algo {
-  background: #ede9fe;
-  color: #4338ca;
+  background: #cffafe;
+  color: #155e75;
 }
 
 .tag-graph-theory {
@@ -233,10 +233,14 @@ h2 {
   margin: 6px 0 10px 0;
   padding: 8px 10px;
   border-radius: 8px;
-  background: #fff1e6;
+  background: #e8eef9;
 }
 
 #research .projects-list .colored-box h2 {
   font-size: 18px;
+}
+
+.report-label-box {
+  background-color: #ffcda8;
 }
 
