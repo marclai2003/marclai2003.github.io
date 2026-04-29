@@ -6,6 +6,11 @@
   margin: 0 0 8px 0;
 }
 
+h2 {
+  margin: 0 0 6px 0;
+  padding: 2px 0;
+}
+
 .notes-back {
   margin-top: 1.5rem;
   text-align: right;
@@ -155,6 +160,46 @@
   color: #9f1239;
 }
 
+.tag-comb-opt {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.tag-convex-opt {
+  background: #e0f2fe;
+  color: #075985;
+}
+
+.tag-comm-complexity {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.tag-info-theory {
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.tag-quantum-algo {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+.tag-abstract-algebra {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.tag-approx-algo {
+  background: #ede9fe;
+  color: #4338ca;
+}
+
+.tag-graph-theory {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
 .projects-list td {
   vertical-align: top !important;
 }
@@ -179,3 +224,19 @@
 .problem-content p {
   margin: 0.4rem 0;
 }
+
+.research-section {
+  padding-top: 0 !important;
+}
+
+.research-statement-box {
+  margin: 6px 0 10px 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #fff1e6;
+}
+
+#research .projects-list .colored-box h2 {
+  font-size: 18px;
+}
+
